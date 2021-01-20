@@ -1,0 +1,1 @@
+This week's work was a bit difficult, but mostly due to not coding in a while. I did have a lot of fun making the site though, even if its really simple. I found it to be a good reminder of things I learned last semester. I found myself going back to the web-dev class website, and my notes to remind myself how to do some of the work. 

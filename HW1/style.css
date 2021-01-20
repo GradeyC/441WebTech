@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap');
+*{
+    font-family: 'Vollkorn', serif;
+}
+*{
+    font-family: 'Exo', sans-serif;
+}
+*{
+    font-family: 'Exo 2', sans-serif;
+}
+*{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+ /*for transparent box w/background, 
+    have (x)-exlement have background-color: rgba(R,G,B, opacity value);*/
+   
+html, body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin:0%;
+    padding:0%;
+}
+
+a{
+    position: sticky;
+    padding:3px;
+    color:black;
+    overflow: wrap;
+    text-decoration: underline;
+}
+
+.HeroImg{
+background-image: url("Images/VermontMts.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 10vh;
+}
+#IntroBox{
+    background-color: rgba(138, 201, 238, 0.664);
+    display: block;
+    position: sticky;
+    width: 45%;
+    right:-35%;
+    overflow: wrap;
+    position: relative;
+}
+
+.Container{
+        display: block;
+        margin:25vh auto;
+        margin-top: 35%;
+        width: 100%;
+        min-width: 350px;
+        border:1px solid yellow;
+        overflow:hidden;
+        background-color: rgb(117, 190, 218);
+}
+
+  @media only screen and (max-width: 600px) {
+    /* For tablets: */
+    p, h1{
+        font-size: 1em;
+    }
+  }
+
+  @media only screen and (min-width: 1000px) {
+    .Container{
+        display: block;
+        width: 75%;
+        min-width: 350px;
+        border:1px solid rgba(211, 171, 38, 0.822);
+        overflow: visible;
+        background-color: rgba(138, 201, 238, 0.664);
+        transition-timing-function:ease;
+        transition: transform 1.5s, background-color 1.5s;
+    }
+    a{
+        font-size: 1.5em;
+    }
+
+    p,h1{
+        font-size: 3em;
+        font-weight: 100;
+    }   
+    .Container:hover{
+        transform: scale(1.2);    
+        background-color: rgb(212, 166, 12);      
+    }
+  }
