@@ -1,0 +1,1 @@
+This week was really simple for me. Having done some javascript work on my own for a personal project and in creative coding this week was a really nice reintroduction, and look at what javascript can do. I'm very excited to work more with javascript and learn how it can be used in designing a website. 
