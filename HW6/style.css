@@ -1,0 +1,20 @@
+body{
+    background-color:rgb(192, 102, 43);
+}
+
+#Table{
+	display: table;
+	width: 100%;
+}
+.Row {
+	display: inline;
+}
+#MainBody {
+	background-color: rgb(218, 105, 233);
+	display: inline-flex;
+}
+.Box {
+	border: 1px solid #93b811;
+	display: inline-block;
+	padding: 3px 10px;
+}

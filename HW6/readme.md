@@ -1,0 +1,1 @@
+This week was much better than last week in my opinion. I found that with this weeks work I was much less stressed for time, and gave myself room to practice with some of the hands on work. Leading to me having a good understanding of the work, while I still ran into some issues. I found it much easier this go around to debug them and found it generally much more enjoyable.
