@@ -1,0 +1,14 @@
+html{
+    background-color: antiquewhite;
+    align-items: center;
+    align-content: center;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+
+div{
+    background-color: thistle;
+    border: violet;
+    text-align: center;
+}
