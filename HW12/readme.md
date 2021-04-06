@@ -1,0 +1,1 @@
+This weeks work was fun, but a bit stressful. Mostly due to the amount of work I had in general this week making it a bit of a squeeze to get everything done. I was unsure what I did to cause the collision bug. However I did try to fix it, and will look at doing that more over the week. 
