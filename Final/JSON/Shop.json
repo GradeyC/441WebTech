@@ -1,0 +1,21 @@
+{
+    "id1": " AbstractArt",
+    "Price1a": 10,
+    "Price1b": 15,
+    "Name1": "Commissioned or already made Abstract art",
+    "id2": " Realist",
+    "Price2": 16,
+    "Name2": "Commissioned or one of our already made",
+    "id3": " MoodBoard",
+    "Price3": 11,
+    "Name3": " Commissioned or prompt based mood board",
+    "id4": " Type",
+    "Price4": 12,
+    "Name4": " Commissioned or already made type centered art",
+    "id5": "Animation",
+    "Price5": 10,
+    "Name5": "Custom Motion Graphic,or 3d Animation ",
+    "id6": " Video Editing",
+    "Price6": 8,
+    "Name6": "I'll Edit Video(s) for you "
+}

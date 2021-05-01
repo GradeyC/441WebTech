@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Welcome to My Shop!</title>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="Libs/jquery-3.6.0.js"></script>
+   <script src="JS/Main.js"></script>
+   <link rel="stylesheet" type="text/css" href="./CSS/main.css" />
+</head>
+
+<body>
+   <div class="HeroImage">
+      <div id="HeaderBox">
+      </div>
+      <div class="ItemsBox">
+         <div class="wrapper">
+            <div class="item">
+               <img id="Abstract" src="Assets/FillArt.png" onclick="ChangePg();">
+                  <p id="PriceAbs"></p>
+                  <h1 id="NameI1"></h1>
+                  <button type="submit" class="remove"onclick="cart();">Remove From Cart</button>
+                <button type="submit" class="add"onclick="cart();">Add To Cart</button>
+            </div>
+            <div class="item">
+               <img id="Real" src="Assets/Cherries.jpg" onclick="ChangePg();">
+               <p id="PriceReal"></p>
+               <h1 id="NameI2"></h1>
+               <button type="submit" class="remove"onclick="cart();">Remove From Cart</button>
+               <button type="submit" class="add"onclick="cart();">Add To Cart</button>
+            </div>
+            <div class="item">
+               <img id="Mood" src="Assets/MoodBoard.jpg" onclick="ChangePg();">
+               <p id="PriceMood"></p>
+               <h1 id="NameI3"></h1>
+               <button type="submit" class="remove"onclick="cart();">Remove From Cart</button>
+               <button type="submit" class="add" onclick="cart();">Add To Cart</button>
+            </div>
+            <div class="item">
+               <h1 id="amounts"></h1>
+            </div>
+            </div>
+            
+         </div>
+      </div>
+   </div>
+</body>
+
+</html>
