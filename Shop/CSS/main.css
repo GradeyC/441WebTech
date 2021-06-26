@@ -1,0 +1,330 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap');
+*{
+    font-family: 'Vollkorn', serif;
+}
+*{
+    font-family: 'Exo', sans-serif;
+}
+*{
+    font-family: 'Exo 2', sans-serif;
+}
+*{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+
+/*end universal Styling*/
+/*-----------------------*/
+/*Start styling element*/
+html{
+    background-color:#fae1dd;
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    -webkit-perspective: 1000;
+    -webkit-backface-visibility: hidden;
+    padding: 0%;
+    margin: 0%;
+} 
+/*below styles for Nav Bar*/
+nav{
+    width: 100%;
+    padding: 5px;
+    background-color: #fec5bb;
+    overflow: none;
+    
+}
+
+.menu{/*styles ul elements in menu*/
+    padding: 0%;
+    list-style: none;
+    float: right;
+    padding-right: 15px;
+}
+
+.menuItem{/*styles li elements in menu*/
+    float: left;
+    margin: 15px;
+    border:3px solid green;
+    background-color: greenyellow;
+    transition-timing-function:ease;
+    transition: transform 1.5s, background-color 1.5s;
+}
+
+.menuItem:hover{
+    transform: scale(1.2);    
+    background-color: rgb(212, 166, 12);  
+}
+
+nav img{
+    border-radius: 150%;
+    height: 120px;
+    width: 120px;
+    border: 4px solid rebeccapurple; 
+}
+
+nav a{
+    width: 100px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: firebrick;
+    text-align: center;
+}
+
+/*end Nav Bar Styling*/
+/*-----------------------*/
+/*Start styling Body*/
+/*Below Styles major container and adds hero image for background Lines 79-102*/
+#Main{
+ padding:0px;
+ height: 3000px;
+ display: grid;
+ grid-template-columns: auto;
+ grid-template-rows: auto;
+ row-gap: 10%;
+ justify-content: space-evenly; 
+ max-width: 1280px;
+ margin-left: auto;
+ margin-right: auto;
+ padding-left: 10px;
+ padding-right: 10px;
+}
+
+.HeroImg{
+    background-image: url("VermontMts.jpg");
+        height:150%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        padding: 10vh;
+
+}
+
+/*below styles section 1/Welcome| Lines 104-120 */
+.welcome{
+
+    color: deepskyblue;
+    text-align: center;
+    margin-top:250px;
+    margin-right: 50px;
+    padding: 50px;
+    background-color: rgba(105, 24, 305, .4);
+    float: right;
+}
+
+.welcomeBTN{
+    display: grid;
+    grid-template-columns:  10px 10px 10px;
+    margin-top: 410px;
+    margin-right: -8.5vw;
+    padding: 15px;
+    column-gap: 150px;
+    row-gap: 10px;
+    width:50px;
+    float:right;
+}
+
+#BTN1{
+    background-image: url("VermontMts.jpg");
+    height: 150px;
+    width: 150px;
+    
+}
+
+
+
+#BTN2{
+    background-image: url("VermontMts.jpg");
+    height: 150px;
+    width: 150px;
+    
+}
+
+
+
+#BTN3{
+    background-image: url("VermontMts.jpg");
+    height: 150px;
+    width: 150px;
+    
+}
+
+
+
+/*end welcome styling*/
+/*-----------------------*/
+/*Start styling parallax images*/
+.parallax1 {
+    background-image: url("Real2.jpg");
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.parallax2 {
+    background-image: url("Abstract2.png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.parallax3 {
+    background-image: url("Abstract3.jpg");
+    min-height: 500px;
+    min-width: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.parallax4 {
+    background-image: url("Typogrophy.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+/*end Nav Bar Styling*/
+/*-----------------------*/
+/*Start styling items*/
+/*Below Styles item text, images, and item animations Lines 104-*/
+.ItemsBox{
+    margin: 40vh;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 15px;
+    row-gap: 30%;
+    column-gap: 150px;
+    width:1280px;
+}
+
+.ItemImg {
+    float: left;
+    width: 500px;
+    height: 300px;
+    padding: 0px;
+    object-fit: cover;
+}
+
+.item {
+    border: 1px solid rgba(36, 2, 2, 0.8);
+    background-color: rgba(301, 45, 150, .5);
+    height: 500px;
+    width: 500px;
+    margin:0vw;
+    padding: 0px;
+    font-size: 30px;
+    text-align: center;
+    
+    
+}
+
+.ItemTitle{
+    font-size: 30px;
+    font-family: 'Exo', sans-serif;
+    background-color:rgba(60, 124, 305, .7);
+    text-overflow: wrap;
+    margin-bottom: 0vw;
+    object-fit: contain;
+    align-content:center;
+}
+
+.ItemTxt{
+    padding: 0px;
+    display:inline-flex;
+    height: fit-content;
+    margin-top:10px;
+    margin-bottom: 0vw;
+    font-size: 4vh;
+    font-family:'Exo 2', sans-serif;
+    
+    color:rgba(150, 1815, 1350, 1)
+}
+
+/*end item Styling*/
+/*-----------------------*/
+/*Start styling footer*/
+
+/*Below Styles footer/end page info| Lines 180-*/
+footer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 5px;
+    background-color:rgba(57, 115, 103);
+
+}
+
+hr{
+    margin: 0%;
+}
+
+
+
+/*Start old styling
+#Craft-Box{
+    text-align: center;
+    display: inline-block;
+    
+    
+}
+
+#Craft-Box li{
+    list-style: none;
+}
+
+#Craft-Box img{
+    width: 320px;
+    height: 300px;
+}
+
+
+#Knit-Box{
+    text-align: center;
+    padding: 3vh;
+}
+
+#Knit-Box li{
+    list-style: none;
+}
+
+#Knit-Box img{
+    width: 320px;
+    height: 300px;
+}
+
+#Mask-Box{
+text-align: center;
+}
+
+#Mask-Box li{
+    list-style: none;
+}
+
+#Mask-Box img{
+    width: 320px;
+    height: 300px;
+}
+*/
