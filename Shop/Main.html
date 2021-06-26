@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Welcome to My Shop!</title>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="Libs/jquery-3.6.0.js"></script>
+   <script src="JS/Main.js"></script>
+   <link rel="stylesheet" type="text/css" href="./CSS/main.css" />
+</head>
+
+<body>
+
+   <!--Space-->
+   <div class="overlay" id="Over">
+
+   </div>
+   <!--space-->
+   <header>
+      <!--For Nav Bar-->
+
+      <div class="DropdownMenu">
+
+         <nav>
+            <img src="Assets/Logo.jpg">
+            <!--Change into an all encompassing logo with name and img-->
+            <ul class="menu">
+               <li class="menuItem"><a href="About.html">About Us</a></li>
+               <li class="menuItem"><a href="Contact.html">Contact Us</a></li>
+               <li class="menuItem"><a href="#">Login/Register</a></li>
+            </ul>
+         </nav>
+      </div>
+   </header>
+   <!--space-->
+   <section class="parallax1">
+      <div class="welcome">
+         <p>Welcome to my shop! I am a local Alaskan making various craft things!</p>
+      </div>
+      <div class="welcomeBTN">
+         <button id="BTN1"></button>
+         <button id="BTN2"></button>
+         <button id="BTN3"></button>
+      </div>
+     
+   </section>
+   <div id="Main" class="HeroImg">
+      <div class="ItemsBox">
+         <div class="wrapper">
+            <section class="parallax2">
+               <div class="item">
+                  <img id="Abstract" class="ItemImg" src="Assets/FillArt.png" onload="SlideInfo();">
+                  <p id="PriceAbs" class="ItemTxt"></p>
+                  <h1 id="NameI1" class="ItemTitle"></h1>
+                  <button type="submit" class="remove" onclick="cart();">Remove From Cart</button>
+                  <button type="submit" class="add" onclick="cart();">Add To Cart</button>
+               </div>
+            </section>
+            <section class="parallax3">
+               <div class="item">
+                  <img id="Real" class="ItemImg" src="Assets/Cherries.jpg" onload="SlideInfo();">
+                  <p id="PriceReal" class="ItemTxt"></p>
+                  <h1 id="NameI2" class="ItemTitle"></h1>
+                  <button type="submit" class="remove" onclick="cart();">Remove From Cart</button>
+                  <button type="submit" class="add" onclick="cart();">Add To Cart</button>
+               </div>
+            </section>
+            <section class="parallax4">
+               <div class="item">
+                  <section class="SlideBox">
+                     <div class="MaskSlid animation">
+                        <span class="SlideTracker"></span>
+                        <img id="Mood1" class="ItemImg" src="Assets/Type2.jpg" onload="SlideInfo();">
+                           <div class="mid">
+                              <span id="caption"></span>
+                        </div>
+                     </div>
+                  </section>
+                  <p id="PriceMood" class="ItemTxt"></p>
+                  <h1 id="NameI3" class="ItemTitle"></h1>
+                  <button type="submit" class="remove" onclick="cart();">Remove From Cart</button>
+                  <button type="submit" class="add" onclick="cart();">Add To Cart</button>
+               </div>
+            </section>
+
+         </div>
+
+      </div>
+   </div>
+   <!--Below is end of site info-->
+   <hr>
+   <footer>
+      <div class="SiteInfo">
+         <p>things</p>
+      </div>
+   </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html class="background">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Gradey Cashin" content="A showing of why i can teach">
+    <meta name="description" content="Styling!">
+         <title>My Portfolio</title>
+         <link rel="stylesheet" type="text/css" href="./css/styleContact.css" />
+         <script>
+            function getData()
+            {
+              var Name = document.getElementById("UsersName").value;
+              var Email = document.getElementById("UsersEmail").value;
+              var Button = document.getElementById("UserResponse").value;
+                document.getElementById("FinalSubmission").innerHTML = " UsersName: " + Name + " UsersEmail: " + Email + " UserResponse: " + Button;
+           }
+          function CheckForm()
+          {
+              var Name = document.getElementById("UsersName").value;
+                if(Name == "")
+                {
+                  window.alert("Please Enter Your Username");
+                  document.getElementById("UsersName").style.backgroundColor="red";
+                  document.getElementById("UsersName").focus();
+                }
+                else
+                {
+                  document.getElementById("UsersName").style.backgroundColor="white";
+                }
+              var Email = document.getElementById("UsersEmail").value;
+                if(Email == "")
+                {
+                  window.alert("Please Enter Your Email Address");
+                  document.getElementById("UsersEmail").style.backgroundColor="red";
+                  document.getElementById("UsersEmail").focus();
+                }
+                else
+                {
+                  document.getElementById("UsersEmail").style.backgroundColor="white"; 
+                }
+                var Button = document.getElementById("UserResponse").checked; 
+                if(Button == true)
+                {
+                                     
+                }
+                else
+                {
+                  window.alert("Please Agree to the Terms of Service.")
+                }
+          }
+    </script>
+ </head>
+    <body>
+       <div class="DropdownMenu">
+         <ul><!--All dropdown code was sourced from https://www.w3schools.com/css/css_dropdowns.asp/ -->
+            <li class="dropdown">
+               <a href="javascript:void(0)" class="dropbtn">Menu</a>
+                  <div class="dropdown-content">
+                     <a href="Welcome.html">Home Page</a>
+                     <a href="AboutWorks.html">Information on works</a>
+                     <a href="GalleryPage.html">Image Gallery</a>
+                  </div>
+            </li>
+       </ul>
+      </div>
+       <div class="Box1">
+          <div class="Form">
+            <h1> Contact Us </h1>
+            <p> If you have any questions or would like to contact me please send me an email through system below.</p>
+               <form>
+                 What Is Your question or inquiry?: <input type="text" id="UsersIssue"><br>
+                  <br>
+                <p> Do you agree to the terms of service?</p>
+               <input type="radio" id = "UserResponse" value="yes" onclick="checked=true"> Agree </br>
+                <br>
+               </form>
+      </div> 
+    
+         <table>
+                  <tr>
+                      <td>Name</td>
+                      <td><input type="text" id="UsersName"></td>
+                  </tr>
+                  <tr>
+                      <td>Email address</td>
+                      <td><input type="text" id="UsersEmail"></td>
+                  </tr>
+                  <tr>
+                      <td colspan="2"><button id="SubmitBtn" onClick="CheckForm()"; onClick="getData();">Submit</button></td>
+                  </tr>
+              </table>
+      </div>
+   
+    </body>
+</html>
